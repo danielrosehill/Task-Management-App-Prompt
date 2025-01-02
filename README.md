@@ -10,13 +10,19 @@ Google search queries are limited to a few words. Because the volumes of those w
 
 Data shows that large language model prompts do not suffer significant degradation in accuracy until lengths approaching 1000 tokens (and improvement is already apparent). This means that (theoretically at least) large language models present an exciting opportunity for everyone evaluating stack components or standalone tools. 
 
-So in theor, at least, by exploiting what large language models do well, we can write highly detailed and focused stack research prompts that hone the models in on our precise requirements.  If we can figure out a way to get over the training data problem (for example, by using a RAG pipeline to make sure that the data they have is up to date) we can - again, in theory - achieve wonderful things, finding perfect tools almost effortlessly. 
+So in theory, at least, by exploiting what large language models do well, we can write highly detailed and focused stack research prompts that hone the models in on our precise requirements.  If we can figure out a way to get over the training data problem (for example, by using a RAG pipeline to make sure that the data they have is up to date) we can - again, in theory - achieve wonderful things, finding perfect tools almost effortlessly. 
 
-As anyone who has spent time at the grindstone of prompt-writing trying to use LLMs for this purpose knows, however,  the reality is a bit less rosy. While models sometimes exhibit flashes of brilliance, pulling off the heroic act of finding the perfect but somewhat obscure tool from a long litany of second best that dominated the SERPs, just as often, they fumble around, suggesting inappropriate tools or ignoring our instructions. 
+As anyone who has spent time at the grindstone of prompt-writing trying to use LLMs for this purpose knows, however,  the reality is a bit less rosy. 
+
+While models sometimes *do* exhibit flashes of brilliance, pulling off the heroic act of finding the perfect but somewhat obscure tool from a long litany of second-bests that dominated the SERPs, just as often, they fumble around and cause us exasperation, suggesting inappropriate tools or ignoring our instructions. 
 
 Perhaps like others, I've spent time trying to understand the mysteries of this inconsistency, with a view to improving the reliability of my own prompt writing. 
 
-This repository captures a few versions of a prompt that I wrote attempting to find an elusive task management and note and task capturing app. As this use case fits within the bloated world of productivity tools, it's a good example, I thought,  of a prompt that could in theory streamline the evaluation. 
+This repository captures a few versions of a prompt that I wrote attempting to find an elusive task management and note and task capturing app. 
+
+As this use case fits within the bloated world of productivity tools, it's a good example, I thought, of a prompt that could in theory streamline the evaluation. An LLM that pulled off this tool well would be incredibly useful. However, on the first run of this prompt with the latest Gemini model, Obsidian was recommended - a tool that doesn't have an online interface (a recommendation that ignores the first feature!). So although so much of what they can do is cutting edge. LLMs, therefore, are perhaps best understood as promising but rudimentary tools in this particular application.
+
+In this repo:
 
  I'll jot down some notes on why the iterations were necessary, which models succeeded with the task if any, and what conclusions I drew from the search. 
 
