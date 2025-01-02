@@ -28,8 +28,6 @@ In this repo:
 
  I'll jot down some notes on why the iterations were necessary, which models succeeded with the task if any, and what conclusions I drew from the search. 
 
-## Use Case Statement
-
 ## Author
 
 Daniel Rosehill  
