@@ -31,3 +31,7 @@ One of the most promising options from the perspective of providing an integrate
 ## Talk Notes
 
 Nice tool, but this falls down for the opposite reason. While there is native voice support (web and mobile!), there is only voice support IE. You can't create a note texturally! 
+
+## Reflect
+
+Closest fit so far, it leverages whisper So has support for transcription on both web and mobile. 
