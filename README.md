@@ -28,6 +28,12 @@ In this repo:
 
  I'll jot down some notes on why the iterations were necessary, which models succeeded with the task if any, and what conclusions I drew from the search. 
 
+ ## Outputs
+
+- [GPT 4.0 Via ChatGPT](outputs/1.md)
+- [Sonnet  3.5](outputs/2.md)
+- [Gemini 2.0 Flash Experimental via Google AI Studio](outputs/3.md)
+
 ## Author
 
 Daniel Rosehill  
