@@ -20,7 +20,9 @@ Perhaps like others, I've spent time trying to understand the mysteries of this 
 
 This repository captures a few versions of a prompt that I wrote attempting to find an elusive task management and note and task capturing app. 
 
-As this use case fits within the bloated world of productivity tools, it's a good example, I thought, of a prompt that could in theory streamline the evaluation. An LLM that pulled off this tool well would be incredibly useful. However, on the first run of this prompt with the latest Gemini model, Obsidian was recommended - a tool that doesn't have an online interface (a recommendation that ignores the first feature!). So although so much of what they can do is cutting edge. LLMs, therefore, are perhaps best understood as promising but rudimentary tools in this particular application.
+As this use case fits within the bloated world of productivity tools, it's a good example, I thought, of a prompt that could in theory streamline the evaluation. 
+
+An LLM that pulled off this task on the first go would be incredibly useful! However, on the first run of this prompt with the latest Gemini model, Obsidian was recommended - a tool that doesn't have an online interface (a recommendation that ignores the first feature!). So although so much of what they can do is cutting edge. LLMs, therefore, are perhaps best understood as promising but rudimentary tools in this particular application.
 
 In this repo:
 
